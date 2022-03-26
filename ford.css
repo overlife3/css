@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+body {
+  margin-top: 0;
+}
+
+.topBlock {
+  width: 920px;
+
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -460px;
+  background-color: rgb(0, 9, 87);
+}
+
+.topBlock button {
+  display: inline-block;
+  height: 60px;
+  width: 90px;
+  background-color: rgb(3, 15, 122);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.topBlock button:hover {
+  transition: 0.3s;
+  background-color: rgb(0, 9, 87);
+}
+.container {
+  margin: auto;
+  margin-top: 60px;
+  width: 900px;
+}
+
+.temporary {
+  width: 100%;
+  height: 80px;
+}
+
+.img {
+  display: block;
+}
+
+.topImg {
+  box-shadow: 0 0 4px rgba(26, 9, 9, 0.4);
+  margin-bottom: 60px;
+}
+
+.fordImg {
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.topImg_text {
+  margin: 0;
+  height: 60px;
+  width: 900px;
+  border: 1.5px solid rgb(255, 255, 255);
+
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.topImg_text h1 {
+  text-align: center;
+  color: rgb(0, 13, 134);
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.shelbyMustCard {
+  display: flex;
+  margin-bottom: 60px;
+}
+.shelbyMustCard img {
+  width: 300px;
+}
+.shelbyMustText {
+  margin-left: 10px;
+}
+.shelbyMustCard h2 {
+  color: rgb(0, 13, 134);
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+.shelbyMustCard span {
+  color: #7a7d83;
+  font-family: "Comfortaa", cursive;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.container h1 {
+  text-align: center;
+  color: rgb(0, 13, 134);
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+}
+
+.card {
+  margin: auto;
+  margin-bottom: 20px;
+  /* border: 1px solid black; */
+  width: 370px;
+  height: auto;
+  box-shadow: 0 0 10px rgba(26, 9, 9, 0.4);
+  overflow: hidden;
+}
+
+.imgAuto {
+  display: block;
+  width: 370px;
+  height: 250px;
+}
+
+.infoAuto {
+  padding: 0 7px 7px 10px;
+}
+
+.card h2 {
+  text-align: center;
+  color: rgb(0, 13, 134);
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+.card span {
+  text-align: center;
+  color: #7a7d83;
+  font-family: "Comfortaa", cursive;
+  font-weight: lighter;
+  font-size: 14px;
+}
+.card a {
+  font-size: 16px;
+  color: rgb(0, 110, 225);
+  text-decoration: none;
+}
+
+.hideText {
+  display: none;
+}
+
+.textCard {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #cfd3db;
+}
+
+.textCard > button {
+  display: none;
+  margin: auto;
+  border: none;
+  color: #7a7d83;
+  background: none;
+  cursor: pointer;
+}
+.textCard > button:hover {
+  color: rgb(0, 13, 134);
+}
+ion-icon {
+  pointer-events: none; /* Так я убрал выскакмвающий title у иконки*/
+}
